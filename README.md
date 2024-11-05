@@ -164,7 +164,7 @@ Probabilistic Programming Languages (PPLs), Bayesian methods, and intro to gener
         - Hidden Markov Models in [Turing.jl](https://turing.ml/dev/tutorials/04-hidden-markov-model) and [Pyro](https://pyro.ai/examples/hmm.html)
 25. **November 29** NLP (short), Tuning foundation models, Graph theory, Graph spectrum, Network games
     - **Readings** 
-      - [Course notes on network games](https://raw.githubusercontent.com/doctor-phil/ECON622/master/phil_notes/graph_theory_notes.pdf)
+      - [Course notes on network games](https://raw.githubusercontent.com/doctor-phil/ECON622/master/phil_notes/networks_notes.pdf)
       - [Datascience notebook on social & economic networks](https://datascience.quantecon.org/applications/networks.html)
       - [Huggingface fine-tuning demo](https://huggingface.co/docs/transformers/training)
       - Melissa Dell's packages [LinkTransformer](https://github.com/dell-research-harvard/linktransformer) (for merging datasets) and [LayoutParser](https://github.com/Layout-Parser/layout-parser) (for OCR/digitization)
