@@ -2,6 +2,8 @@
 
 This is a graduate topics course in computational economics, with applications in datascience and machine learning.
 
+### **Note: This is an *archived* version of the course. To find notes for the ongoing term, see [here](https://github.com/ubcecon/ECON622).**
+
 # Course materials
 - Get a [GitHub](www.github.com) ID and apply for the [Student Developer Pack](https://education.github.com/pack) to get further free features
 - Consider clicking `Watch` at the top of this repository to see file changes
@@ -80,37 +82,37 @@ See [problemsets.md](problemsets.md).
 
 **JESSE**
 
-Slides for the lectures can be found [here](https://ubcecon.github.io/ECON622/lectures/index.html)
+Slides for the lectures can be found [here](https://doctor-phil.github.io/ECON622/lectures/index.html)
 
 8. **October 4th**: Factorizations, Direct Methods, and Intro to Regularization
-    - **SLIDES**: [Factorizations and Direct Methods](https://ubcecon.github.io/ECON622/lectures/lectures/factorizations_direct_methods.html)
+    - **SLIDES**: [Factorizations and Direct Methods](https://doctor-phil.github.io/ECON622/lectures/lectures/factorizations_direct_methods.html)
     - Introduction to regularization and implicit bias of algorithms
     - [Numerical Linear Algebra](https://julia.quantecon.org/tools_and_techniques/numerical_linear_algebra.html) applying generic programming
 9.  **October 11**: Iterative Methods, Geometry of Optimization, and Rethinking LLS
-    - **SLIDES**: [Least Squares](https://ubcecon.github.io/ECON622/lectures/lectures/least_squares.html) and [Iterative Methods](https://ubcecon.github.io/ECON622/lectures/lectures/iterative_methods.html)
+    - **SLIDES**: [Least Squares](https://doctor-phil.github.io/ECON622/lectures/lectures/least_squares.html) and [Iterative Methods](https://doctor-phil.github.io/ECON622/lectures/lectures/iterative_methods.html)
     - [Iterative Methods](https://julia.quantecon.org/tools_and_techniques/iterative_methods_sparsity.html)
 10. **October 12**: Preconditioning and Overview of Machine Learning
-    - **SLIDES**:  [Iterative Methods](https://ubcecon.github.io/ECON622/lectures/lectures/iterative_methods.html) and [Intro to ML](https://ubcecon.github.io/ECON622/lectures/lectures/intro_to_ml.html)
+    - **SLIDES**:  [Iterative Methods](https://doctor-phil.github.io/ECON622/lectures/lectures/iterative_methods.html) and [Intro to ML](https://doctor-phil.github.io/ECON622/lectures/lectures/intro_to_ml.html)
     - Finalize discussion of iterative methods and preconditioning
     - Introduce key concepts about supervised, unsupervised, reinforcement learning, semi-supervised, kernel-methods, deep-learning, etc.
 11. **October 16**: Differentiable everything! JAX and Auto-Differentiation/JVP/etc.
-    - **SLIDES**: Finish [Intro to ML](https://ubcecon.github.io/ECON622/lectures/lectures/intro_to_ml.html) and start [Differentiation](https://ubcecon.github.io/ECON622/lectures/lectures/differentiation.html)
+    - **SLIDES**: Finish [Intro to ML](https://doctor-phil.github.io/ECON622/lectures/lectures/intro_to_ml.html) and start [Differentiation](https://doctor-phil.github.io/ECON622/lectures/lectures/differentiation.html)
     - Core JAX transforms
     - Reverse-mode and forward-mode AD.  
     - Jvps and vjps
 12. **October 18**: AD of Implicit Functions, Optimization Methods for High-Dimensional Problems
-    - **SLIDES**: Finish [Differentiation](https://ubcecon.github.io/ECON622/lectures/lectures/differentiation.html) and start [Optimization](https://ubcecon.github.io/ECON622/lectures/lectures/optimization.html)
+    - **SLIDES**: Finish [Differentiation](https://doctor-phil.github.io/ECON622/lectures/lectures/differentiation.html) and start [Optimization](https://doctor-phil.github.io/ECON622/lectures/lectures/optimization.html)
     - Implicit differentiation of systems of ODEs, linear systems, etc.
     - Gradient descent variations
 13. **October 23th**: Stochastic Optimization Methods
-    - **SLIDES**: SGD variations in [Optimization](https://ubcecon.github.io/ECON622/lectures/lectures/optimization.html)
+    - **SLIDES**: SGD variations in [Optimization](https://doctor-phil.github.io/ECON622/lectures/lectures/optimization.html)
     - SGD and methods for variance reduction in gradient estimates
     - Using SGD-variants in practice within ML pipelines in JAX and Pytorch
 14. **October 25th**: Machine Learning Pipelines, HPO, and ERM
-    - **SLIDES**: Finished example code of pipelines in [Optimization](https://ubcecon.github.io/ECON622/lectures/lectures/optimization.html), W&B sweeps, and code in `lectures/lectures/examples`
+    - **SLIDES**: Finished example code of pipelines in [Optimization](https://doctor-phil.github.io/ECON622/lectures/lectures/optimization.html), W&B sweeps, and code in `lectures/lectures/examples`
     - **Readings**: [Probabilistic Machine Learning: An Introduction](https://probml.github.io/pml-book/book1.html) Section 5.4 on ERM
 15. **October 30**: Neural Networks, Representation Learning, Double-Descent
-    - **SLIDES**: [Deep Learning and Representation Learning](https://ubcecon.github.io/ECON622/lectures/lectures/deep_learning.html) and started [Double-Descent and Regularization](https://ubcecon.github.io/ECON622/lectures/lectures/overparameterization.html)
+    - **SLIDES**: [Deep Learning and Representation Learning](https://doctor-phil.github.io/ECON622/lectures/lectures/deep_learning.html) and started [Double-Descent and Regularization](https://doctor-phil.github.io/ECON622/lectures/lectures/overparameterization.html)
     - **Readings**
       - [Probabilistic Machine Learning: An Introduction](https://probml.github.io/pml-book/book1.html) Section 13.2.1 to 13.2.6 on MLPs and the importance of depth
       - [Probabilistic Machine Learning: An Introduction](https://probml.github.io/pml-book/book1.html) Section 13.5.1 to 13.5.6 on regularization
@@ -119,7 +121,7 @@ Slides for the lectures can be found [here](https://ubcecon.github.io/ECON622/le
     - **Optional Extra Material**
       - [Probabilistic Machine Learning: Advanced Topics](https://probml.github.io/pml-book/book2.html) Section 32 on representation learning
 16. **November 1** Finish Double-Descent and Intro to Kernel Methods and Gaussian Processes
-    - **SLIDES**: [Kernel Methods and Gaussian Processes](https://ubcecon.github.io/ECON622/lectures/lectures/kernel_methods.html) and finish [Double-Descent and Regularization](https://ubcecon.github.io/ECON622/lectures/lectures/overparameterization.html)
+    - **SLIDES**: [Kernel Methods and Gaussian Processes](https://doctor-phil.github.io/ECON622/lectures/lectures/kernel_methods.html) and finish [Double-Descent and Regularization](https://doctor-phil.github.io/ECON622/lectures/lectures/overparameterization.html)
     - **Readings**
       - If you didn't do it already, read [Mark Schmidt's CPSC440 Notes on Double-Descent Curves and Overparameterization](https://www.cs.ubc.ca/~schmidtm/Courses/440-W22/L7.pdf) (see [CPSC340](https://www.cs.ubc.ca/~schmidtm/Courses/340-F22/L32.pdf) lectures for a more basic treatment of these topics)
       - [Probabilistic Machine Learning: An Introduction](https://probml.github.io/pml-book/book1.html) Section 17.1 and 17.2 on Kernel methods and Gaussian Processes

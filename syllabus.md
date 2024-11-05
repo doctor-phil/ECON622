@@ -4,8 +4,8 @@
 
 - **Instructors:**
   - Paul Schrimpf, schrimpf@mail.ubc.ca
-  - Jesse Perla, jesse.perla@ubc.cas
-  - Phil Solimine,
+  - Jesse Perla, jesse.perla@ubc.ca
+  - Phil Solimine, philip.soulimine@ubc.ca
 - **Office Hours:**
 - **Class Time** Mondays & Wednesdays 9:30-11:00 in [Buchanon D301](https://learningspaces.ubc.ca/classrooms/buch-d301)
 
